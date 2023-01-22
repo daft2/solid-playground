@@ -1,10 +1,10 @@
 import { Component } from "solid-js";
-import Counter from "./components/Counter";
+import KanbanBoard from "./components/KanbanBoard";
 
 const App: Component = () => {
   return (
-    <div class="bg-neutral-800 text-neutral-100 w-screen h-screen items-center justify-center flex flex-col">
-      <Counter />
+    <div class="bg-neutral-800 text-neutral-100 w-screen h-screen items-center flex flex-col p-2">
+      <KanbanBoard />
     </div>
   );
 };
